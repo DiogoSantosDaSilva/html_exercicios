@@ -1,0 +1,74 @@
+body {
+    font-family: cursive;
+}
+
+figure {
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 20px;
+}
+
+figure > img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1, .dist {
+    display: inline-block;
+    width: 49%;
+}
+
+h1 {
+    font-size: 20pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dist img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.dist {
+    text-align: right;
+}
+
+.star img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+.clock {
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.horario * {
+    display: inline-block;
+    width: 60px;
+
+}
+
+.horario {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reserva {
+    font-size: 20pt;
+    color: rgba(240, 12, 12, 0.5);
+    padding-top: 5px;
+    text-align: center;
+}
+
+.dias {
+    text-align: center;
+}
